@@ -5,11 +5,11 @@
   "preferGlobal": true,
   "main": "./index.js",
   "bin": {
-      "npm": "./index.js"
+      "clis": "./index.js"
   },
   "engines": {
     "node": ">=0.8",
-    "npm": "1"
+    "clis": "1"
   },
   "scripts": {
     "test": "mocha -R list test/*.js"
