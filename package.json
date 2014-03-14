@@ -2,7 +2,15 @@
   "name": "clis",
   "version": "0.1.0",
   "description": "sort safe base16 to/from base64 conversion with filename and url safe characters written in pure javascript",
-  "main": "index.js",
+  "preferGlobal": true,
+  "main": "./index.js",
+  "bin": {
+      "npm": "./index.js"
+  },
+  "engines": {
+    "node": ">=0.8",
+    "npm": "1"
+  },
   "scripts": {
     "test": "mocha -R list test/*.js"
   },
