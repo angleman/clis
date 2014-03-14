@@ -1,0 +1,24 @@
+{
+  "name": "clis",
+  "version": "0.1.0",
+  "description": "sort safe base16 to/from base64 conversion with filename and url safe characters written in pure javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R list test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angleman/clis"
+  },
+  "bugs": {
+    "url": "https://github.com/angleman/clis/issues"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt": "^0.4.3",
+    "grunt-bump": "0.0.13",
+    "mocha": "^1.17.1",
+    "should": "^3.1.3"
+  }
+}
