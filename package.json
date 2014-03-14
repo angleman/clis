@@ -8,8 +8,7 @@
       "clis": "./index.js"
   },
   "engines": {
-    "node": ">=0.8",
-    "clis": "1"
+    "node": ">=0.8"
   },
   "scripts": {
     "test": "mocha -R list test/*.js"
