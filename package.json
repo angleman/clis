@@ -1,6 +1,6 @@
 {
   "name": "clis",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "sort safe base16 to/from base64 conversion with filename and url safe characters written in pure javascript",
   "preferGlobal": true,
   "main": "./index.js",
